@@ -1,0 +1,14 @@
+{
+    "server":"137.74.157.145",
+    "server_port":8530,
+    "local_address": "127.0.0.1",
+    "local_port":45678,
+    "password":"UyEZrONd0cbCEeCpiT7qY0BjdYMUpspQcPXAVg80QYRA3tcQ8ypIq/nA/1+ES3Tf",
+    "timeout":300,
+    "method":"chacha20-ietf-poly1305",
+    "workers":8,
+    "plugin":"/usr/local/bin/obfs-local",
+    "plugin_opts": "obfs=http;obfs-host=www.github.com",
+    "fast_open":true,
+    "reuse_port":true
+}
